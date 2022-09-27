@@ -54,4 +54,26 @@ The project was mainly completed by Ding Bao ([@whbyaoi](https://github.com/whby
 ## Contact Information
 If you have any questions please feel free to contact me by e-mail yuexin.xiang@cug.edu.cn
 
-## Appendix
+## Appendix (Partial)
+| Feature       | Description                                                                                    |
+| --------------| ---------------------------------------------------------------------------------------------- |
+| `PAIa1`       | The input/output token amount of an address node.                                              |
+| `PAIa11-1`    | The total input token amount of an address node.                                               |
+| `PAIa11-2`    | The total output token amount of an address node.                                              |
+| `PAIa12`      | The difference of `PAIa11-1` and `PAIa11-2`.                                                   |
+| `PAIa13`      | The ratio of `PAIa11-1` and `PAIa11-2`.                                                        |
+| `PAIa14-1`    | The minimum input token amount of an address node.                                             |
+| `PAIa14-2`    | The maximum input token amount of an address node.                                             |
+| `PAIa14-3`    | The minimum output token amount of an address node.                                            |
+| `PAIa14-4`    | The maximum output token amount of an address node.                                            |
+| `PAIa15-1`    | The difference of `PAIa14-2` and `PAIa14-1`.                                                   |
+| `PAIa15-2`    | The difference of `PAIa14-4` and `PAIa14-3`.                                                   |
+| `PAIa16-1`    | The ratio of `PAIa15-1` and `PAIa14-2`.                                                        |
+| `PAIa16-2`    | The ratio of `PAIa15-2` and `PAIa14-4`.                                                        |
+| `PAIa17-1`    | The standard deviation of all input token amounts of an address node.                          |
+| `PAIa17-2`    | The standard deviation of all output token amounts of an address node.                         |
+| `PAIa17-3`    | The standard deviation of all input and output token amounts of an address node.               |
+|...            | ...                                                                                            |
+
+
+
