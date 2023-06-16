@@ -88,6 +88,24 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `PDIa11-2`    | The ratio of `PDIa1-2` and `PDIa1-3`                                                           |
 | `PDIa11-3`    | The ratio of `PDIa1-1` and `PDIa1-2`                                                           |
 | `PDIa11-4`    | The difference of `PDIa1-1` and `PDIa1-2`                                                      |
+| **`S1`**      | The average degree                                                                             |
+| `S1-1`        | The average in-degree                                                                          |
+| `S1-2`        | The standard deviation of `S1-1`                                                               |
+| `S1-3`        | The average out-degree                                                                         |
+| `S1-4`        | The standard deviation of `S1-3`                                                               |
+| `S1-5`        | The average total degree                                                                       |
+| `S1-6`        | The standard deviation of `S1-5`                                                               |
+| **`S2`**      | The degree distribution                                                                        |
+| `S2-1`        | The maximum in-degree of the subgraph                                                          |
+| `S2-2`        | The maximum out-degree of the subgraph                                                         |
+| `S2-3`        | The maximum total degree of the subgraph                                                       |
+| **`S3`**      | The Pearson correlation coefficient                                                            |
+| **`S4`**      | The betweenness centrality                                                                     |
+| **`S5`**      | The average path                                                                               |
+| **`S6`**      | The maximum diameter                                                                           |
+| **`S7`**      | The closeness centrality                                                                       |
+| **`S8`**      | The PageRank                                                                                   |
+| **`S9`**      | The density                                                                                    |
 | ...     | ...                                                         |
 
 
