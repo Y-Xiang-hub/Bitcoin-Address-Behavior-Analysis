@@ -25,15 +25,15 @@ This project is the source code of our dataset [BABD-13](https://www.kaggle.com/
 
  
 ## Data Collection
-In the `data_collection folder`, `Bitcoin_Ledger_Reader_V3.1.py` is used for collecting Bitcoin ledger data from [BTC.com](https://btc.com/). And `labeled_data_API.py` is used for collecting Bitcoin labeled addresses from [WalletExplorer](https://www.walletexplorer.com/) that is completed by Qingqing Yang ([@Vinedou](https://github.com/Vinedou)) . Here we would like to thank [Aleš Janda](http://www.alesjanda.cz/) for his generous help.
+In the `data_collection folder`, `Bitcoin_Ledger_Reader_V3.1.py` is used for collecting Bitcoin ledger data from [BTC.com](https://btc.com/). And `labeled_data_API.py` is used for collecting Bitcoin labeled addresses from [WalletExplorer](https://www.walletexplorer.com/) that is completed by Qingqing Yang ([@Vinedou](https://github.com/Vinedou)). Here we would like to thank [Aleš Janda](http://www.alesjanda.cz/) for his generous help.
  
 ## Graph Generation
-To generate a Bitcoin transaction graph from raw Bitcoin ledger data, it is necessary to select the attributes needed for the following analysis steps first that can be found in `graph_generation.py`. Then we use `graph_generation.py` to generate the Bitcoin transaction graph that is implemented by [graph-tool](https://graph-tool.skewed.de/).
+To generate a Bitcoin transaction graph from raw Bitcoin ledger data, it is necessary to select the attributes needed for the following analysis steps first which can be found in `graph_generation.py`. Then we use `graph_generation.py` to generate the Bitcoin transaction graph that is implemented by [graph-tool](https://graph-tool.skewed.de/).
 
 ## Feature Extraction
 In this process, we need to extract the required features from the generated Bitcoin transaction graph for the concrete labeled Bitcoin addresses. There are two kinds of features we are concerned about in this work that are **statistical features** and **local structural features**.
 
-The methods to extract statistical features and structural features can be found in `moduleG.py`. Then, we run the code in `data_extraction.ipynb` to extract features. Specifically, we need to read the generated Bitcoin transaction graph first through the *read the graph* cell. After finishing reading the graph, we can compute the statistical features and local structural features respectively in different cells. The only difference between these two types of features is that we have to generate a subgraph before extracting local structural features. Besides, in order to accelerate the speed of feature extraction, we apply the parallel computing approach here.
+The methods to extract statistical features and structural features can be found in `moduleG.py`. Then, we run the code in `data_extraction.ipynb` to extract features. Specifically, we need to read the generated Bitcoin transaction graph first through the *read the graph* cell. After reading the graph, we can compute the statistical and local structural features in different cells. The only difference between these two types of features is that we have to generate a subgraph before extracting local structural features. Besides, in order to accelerate the speed of feature extraction, we apply the parallel computing approach here.
  
 ## Data Preprocess
 The results of the feature extraction module are stored in .csv files. However, for further analyzing the data, it is necessary to preprocess the current data by `functions_csv_preprocess.py` in `preprocess_csv` folder.
@@ -49,15 +49,15 @@ The project was mainly completed by Ding Bao ([@whbyaoi](https://github.com/whby
 
 - Ding Bao finished most of the code for the metrics, both in terms of amount and complexity. Not only that, but he also wrote efficient crawlers to fulfill the need of building the dataset presented in the paper and examined the collected data in detail.
 - Yuchen Lei authored the core module, directed parallelization improvements, fixed some bugs in the code, and proposed several helpful pieces of advice for machine-learning-based classification.
-- Yuexin Xiang wrote the original version of the Bitcoin ledger collection tool and graph initialization, and finished machine-learning-powered data analysis including but not limited to preprocessing.
+- Yuexin Xiang wrote the original version of the Bitcoin ledger collection tool and graph initialization and finished machine-learning-powered data analysis including but not limited to preprocessing.
 
 ## Contact Information
-If you have any questions please feel free to contact me by e-mail yuexin.xiang@cug.edu.cn
+If you have any questions please feel free to contact me by e-mail at yuexin.xiang@cug.edu.cn
 
 ## Appendix (Partial)
 | Feature       | Description                                                                                    |
 | --------------| ---------------------------------------------------------------------------------------------- |
-| **`PAIa1`**       | The input/output token amount of an address node.                                              |
+| **`PAIa1`**   | The input/output token amount of an address node.                                              |
 | `PAIa11-1`    | The total input token amount of an address node.                                               |
 | `PAIa11-2`    | The total output token amount of an address node.                                              |
 | `PAIa12`      | The difference of `PAIa11-1` and `PAIa11-2`.                                                   |
@@ -73,7 +73,16 @@ If you have any questions please feel free to contact me by e-mail yuexin.xiang@
 | `PAIa17-1`    | The standard deviation of all input token amounts of an address node.                          |
 | `PAIa17-2`    | The standard deviation of all output token amounts of an address node.                         |
 | `PAIa17-3`    | The standard deviation of all input and output token amounts of an address node.               |
-|...            | ...                                                                                            |
+|**`PAIa2`**    | The ratio of each input (output) token amount and `PAIa11-1` (`PAIa11-2`) token amount         |
+| `PAIa21-1`     | The ratio of `PAIa14-1` and `PAIa11-1`                                                        |
+| `PAIa21-2`     | The ratio of `PAIa14-2` and `PAIa11-1`                                                        |
+| `PAIa21-3`     | The ratio of `PAIa14-3` and `PAIa11-2`                                                        |
+| `PAIa21-4`     | The ratio of `PAIa14-4` and `PAIa11-2`                                                        |
+| `PAIa22-1`     | The standard deviation of the ratio of each input token amount and `PAIa11-1`                 |
+| `PAIa22-2`     | The standard deviation of the ratio of each output token amount and `PAIa11-2`                |
+| ...     | ...                                                         |
+
+
 
 
 
