@@ -73,13 +73,21 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `PAIa17-1`    | The standard deviation of all input token amounts of an address node.                          |
 | `PAIa17-2`    | The standard deviation of all output token amounts of an address node.                         |
 | `PAIa17-3`    | The standard deviation of all input and output token amounts of an address node.               |
-|**`PAIa2`**    | The ratio of each input (output) token amount and `PAIa11-1` (`PAIa11-2`) token amount         |
-| `PAIa21-1`     | The ratio of `PAIa14-1` and `PAIa11-1`                                                        |
-| `PAIa21-2`     | The ratio of `PAIa14-2` and `PAIa11-1`                                                        |
-| `PAIa21-3`     | The ratio of `PAIa14-3` and `PAIa11-2`                                                        |
-| `PAIa21-4`     | The ratio of `PAIa14-4` and `PAIa11-2`                                                        |
-| `PAIa22-1`     | The standard deviation of the ratio of each input token amount and `PAIa11-1`                 |
-| `PAIa22-2`     | The standard deviation of the ratio of each output token amount and `PAIa11-2`                |
+| **`PAIa2`**   | The ratio of each input (output) token amount and `PAIa11-1` (`PAIa11-2`) token amount         |
+| `PAIa21-1`    | The ratio of `PAIa14-1` and `PAIa11-1`                                                         |
+| `PAIa21-2`    | The ratio of `PAIa14-2` and `PAIa11-1`                                                         |
+| `PAIa21-3`    | The ratio of `PAIa14-3` and `PAIa11-2`                                                         |
+| `PAIa21-4`    | The ratio of `PAIa14-4` and `PAIa11-2`                                                         |
+| `PAIa22-1`    | The standard deviation of the ratio of each input token amount and `PAIa11-1`                  |
+| `PAIa22-2`    | The standard deviation of the ratio of each output token amount and `PAIa11-2`                 |
+| **`PDIa`**    | The degree of an address node                                                                  |
+| `PDIa1-1`     | The in-degree of an address node                                                               |
+| `PDIa1-2`     | The out-degree of an address node                                                              |
+| `PDIa1-3`     | The total degree of an address node                                                            |
+| `PDIa11-1`    | The ratio of `PDIa1-1` and `PDIa1-3`                                                           |
+| `PDIa11-2`    | The ratio of `PDIa1-2` and `PDIa1-3`                                                           |
+| `PDIa11-3`    | The ratio of `PDIa1-1` and `PDIa1-2`                                                           |
+| `PDIa11-4`    | The difference of `PDIa1-1` and `PDIa1-2`                                                      |
 | ...     | ...                                                         |
 
 
