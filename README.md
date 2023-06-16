@@ -88,6 +88,7 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `PDIa11-2`    | The ratio of `PDIa1-2` and `PDIa1-3`                                                           |
 | `PDIa11-3`    | The ratio of `PDIa1-1` and `PDIa1-2`                                                           |
 | `PDIa11-4`    | The difference of `PDIa1-1` and `PDIa1-2`                                                      |
+| ...     | ...                                                         |
 | **`S1`**      | The average degree                                                                             |
 | `S1-1`        | The average in-degree                                                                          |
 | `S1-2`        | The standard deviation of `S1-1`                                                               |
