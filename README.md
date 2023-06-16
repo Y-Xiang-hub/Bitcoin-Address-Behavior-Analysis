@@ -107,7 +107,7 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | **`S7`**      | The closeness centrality                                                                       |
 | **`S8`**      | The PageRank                                                                                   |
 | **`S9`**      | The density                                                                                    |
-| ...     | ...                                                         |
+
 
 
 
