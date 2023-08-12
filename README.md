@@ -88,7 +88,7 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `PDIa11-2`    | The ratio of `PDIa1-2` to `PDIa1-3`                                                            |
 | `PDIa12`      | The ratio of `PDIa1-1` to `PDIa1-2`                                                            |
 | `PDIa13`      | The difference between `PDIa1-1` and `PDIa1-2`                                                 |
-| **`PTIa1`**   | The lifecycle of an address node - the difference between the earliest and the latest active time (measured in units of 24 hours)   |
+| **`PTIa1`**   | The lifecycle of an address node - the difference between the earliest and the latest active time |
 | **`PTIa2`**   | The active period of an address node - the number of active days during the lifecycle          |
 | `PTIa21`      | The ratio of `PTIa2` to `PTIa1`                                                                |
 | **`PTIa3`**   | The number of active instances for each day in the active period of an address node            |
