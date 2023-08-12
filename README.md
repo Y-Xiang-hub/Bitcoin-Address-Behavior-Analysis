@@ -1,4 +1,4 @@
-# BABD Construction and Analysis
+![image](https://github.com/Y-Xiang-hub/Bitcoin-Address-Behavior-Analysis/assets/57489506/c11f774c-ea69-4730-b96e-3d045502d251)# BABD Construction and Analysis
 
 *NOTE: WE WILL UPLOAD A COMPLETE APPENDIX AFTER OUR PAPER IS ACCEPTED.*
 
@@ -60,34 +60,35 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | **`PAIa1`**   | The input/output token amount of an address node.                                              |
 | `PAIa11-1`    | The total input token amount of an address node.                                               |
 | `PAIa11-2`    | The total output token amount of an address node.                                              |
-| `PAIa12`      | The difference of `PAIa11-1` and `PAIa11-2`.                                                   |
-| `PAIa13`      | The ratio of `PAIa11-1` and `PAIa11-2`.                                                        |
-| `PAIa14-1`    | The minimum input token amount of an address node.                                             |
+| `PAIa12`      | The difference between `PAIa11-1` and `PAIa11-2`.                                                   |
+| `PAIa13`      | The ratio of `PAIa11-1` to `PAIa11-2`.                                                        |
+| `PAIa14-1`    | The minimum input token amount of aton address node.                                             |
 | `PAIa14-2`    | The maximum input token amount of an address node.                                             |
 | `PAIa14-3`    | The minimum output token amount of an address node.                                            |
 | `PAIa14-4`    | The maximum output token amount of an address node.                                            |
-| `PAIa15-1`    | The difference of `PAIa14-2` and `PAIa14-1`.                                                   |
-| `PAIa15-2`    | The difference of `PAIa14-4` and `PAIa14-3`.                                                   |
-| `PAIa16-1`    | The ratio of `PAIa15-1` and `PAIa14-2`.                                                        |
-| `PAIa16-2`    | The ratio of `PAIa15-2` and `PAIa14-4`.                                                        |
+| `PAIa15-1`    | The difference between `PAIa14-2` and `PAIa14-1`.                                                   |
+| `PAIa15-2`    | The difference between `PAIa14-4` and `PAIa14-3`.                                                   |
+| `PAIa16-1`    | The ratio of `PAIa15-1` to `PAIa14-2`.                                                        |
+| `PAIa16-2`    | The ratio of `PAIa15-2` to `PAIa14-4`.                                                        |
 | `PAIa17-1`    | The standard deviation of all input token amounts of an address node.                          |
 | `PAIa17-2`    | The standard deviation of all output token amounts of an address node.                         |
 | `PAIa17-3`    | The standard deviation of all input and output token amounts of an address node.               |
 | **`PAIa2`**   | The ratio of each input (output) token amount and `PAIa11-1` (`PAIa11-2`) token amount         |
-| `PAIa21-1`    | The ratio of `PAIa14-1` and `PAIa11-1`                                                         |
-| `PAIa21-2`    | The ratio of `PAIa14-2` and `PAIa11-1`                                                         |
-| `PAIa21-3`    | The ratio of `PAIa14-3` and `PAIa11-2`                                                         |
-| `PAIa21-4`    | The ratio of `PAIa14-4` and `PAIa11-2`                                                         |
+| `PAIa21-1`    | The ratio of `PAIa14-1` to `PAIa11-1`                                                         |
+| `PAIa21-2`    | The ratio of `PAIa14-2` to `PAIa11-1`                                                         |
+| `PAIa21-3`    | The ratio of `PAIa14-3` to `PAIa11-2`                                                         |
+| `PAIa21-4`    | The ratio of `PAIa14-4` to `PAIa11-2`                                                         |
 | `PAIa22-1`    | The standard deviation of the ratio of each input token amount and `PAIa11-1`                  |
 | `PAIa22-2`    | The standard deviation of the ratio of each output token amount and `PAIa11-2`                 |
 | **`PDIa`**    | The degree of an address node                                                                  |
 | `PDIa1-1`     | The in-degree of an address node                                                               |
 | `PDIa1-2`     | The out-degree of an address node                                                              |
 | `PDIa1-3`     | The total degree of an address node                                                            |
-| `PDIa11-1`    | The ratio of `PDIa1-1` and `PDIa1-3`                                                           |
-| `PDIa11-2`    | The ratio of `PDIa1-2` and `PDIa1-3`                                                           |
-| `PDIa11-3`    | The ratio of `PDIa1-1` and `PDIa1-2`                                                           |
-| `PDIa11-4`    | The difference of `PDIa1-1` and `PDIa1-2`                                                      |
+| `PDIa11-1`    | The ratio of `PDIa1-1` to `PDIa1-3`                                                           |
+| `PDIa11-2`    | The ratio of `PDIa1-2` to `PDIa1-3`                                                           |
+| `PDIa12`    | The ratio of `PDIa1-1` to `PDIa1-2`                                                           |
+| `PDIa13`    | The difference between `PDIa1-1` and `PDIa1-2`                                                      |
+| **`PTIa1`**     | The address node lifecycle - the difference between the earliest and the latest active time (measured in units of 24 hours)                                                     |
 | ...     | ...                                                         |
 | **`S1`**      | The average degree                                                                             |
 | `S1-1`        | The average in-degree                                                                          |
