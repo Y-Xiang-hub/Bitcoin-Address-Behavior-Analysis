@@ -57,16 +57,16 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 ## Appendix (Partial)
 | Feature       | Description                                                                                    |
 | --------------| ---------------------------------------------------------------------------------------------- |
-| **`PAIa1`**   | The input/output token amount of an address node.                                              |
-| `PAIa11-1`    | The total input token amount of an address node.                                               |
-| `PAIa11-2`    | The total output token amount of an address node.                                              |
-| `PAIa12`      | The difference between `PAIa11-1` and `PAIa11-2`.                                              |
-| `PAIa13`      | The ratio of `PAIa11-1` to `PAIa11-2`.                                                         |
-| `PAIa14-1`    | The minimum input token amount of an address node.                                             |
-| `PAIa14-2`    | The maximum input token amount of an address node.                                             |
-| `PAIa14-3`    | The minimum output token amount of an address node.                                            |
-| `PAIa14-4`    | The maximum output token amount of an address node.                                            |
-| `PAIa15-1`    | The difference between `PAIa14-2` and `PAIa14-1`.                                              |
+| **`PAIa1`** | The input/output token amount of an address node.                                              |
+| `PAIa11-1`  | The total input token amount of an address node.                                               |
+| `PAIa11-2`  | The total output token amount of an address node.                                              |
+| `PAIa12`     | The difference between `PAIa11-1` and `PAIa11-2`.                                              |
+| `PAIa13`    | The ratio of `PAIa11-1` to `PAIa11-2`.                                                         |
+| `PAIa14-1`  | The minimum input token amount of an address node.                                             |
+| `PAIa14-2`   | The maximum input token amount of an address node.                                             |
+| `PAIa14-3`   | The minimum output token amount of an address node.                                            |
+| `PAIa14-4`   | The maximum output token amount of an address node.                                            |
+| `PAIa15-1`   | The difference between `PAIa14-2` and `PAIa14-1`.                                              |
 | `PAIa15-2`    | The difference between `PAIa14-4` and `PAIa14-3`.                                              |
 | `PAIa16-1`    | The ratio of `PAIa15-1` to `PAIa14-2`.                                                         |
 | `PAIa16-2`    | The ratio of `PAIa15-2` to `PAIa14-4`.                                                         |
@@ -97,6 +97,10 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `PTIa31-3`    | The average number of active instances of an address node                                      |
 | `PTIa32`      | The difference between `PTIa31-1` and `PTIa31-2`                                               |
 | `PTIa33`      | The standard deviation of the number of active instances of an address node                    |
+
+| **`X`**|     |
+| `X`    |     |
+
 | **`S1`**      | The average degree                                                                             |
 | `S1-1`        | The average in-degree                                                                          |
 | `S1-2`        | The standard deviation of `S1-1`                                                               |
