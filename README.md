@@ -106,12 +106,16 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `PTIa41-3`    | The average transaction time interval of an address node      |
 | `PTIa42`    | The difference between `PTIa41-1` and `PTIa41-2`    |
 | `PTIa43`    | The standard deviation of the transaction time interval of an address node       |
-| **`CI1a`**| **`PAI`** + **`PDI`** |
-
-| **`...`**| ...  |
+| **`CI1`**| **`PAI`** + **`PDI`** |
+| `CI1a1-1`    |  The ratio of .. to ..   |
+| `CI1a1-2`    |  The ratio of .. to ..   |
+| `CI1a2`    |  The ratio of .. to ..   |
+| **`CI2`**| **`PAI`** + **`PTI`**   |
 | `...`    |  ...   |
-
-
+| **`CI3`**| **`PDI`** + **`PTI`**   |
+| `...`    |  ...   |
+| **`CI4`**| **`PAI`** + **`PDI`** + **`PTI`**   |
+| `...`    |  ...   |
 | **`S1`**      | The average degree                                                                             |
 | `S1-1`        | The average in-degree                                                                          |
 | `S1-2`        | The standard deviation of `S1-1`                                                               |
