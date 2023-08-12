@@ -57,6 +57,7 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 ## Appendix 
 | Feature       | Description                                                                                    |
 | --------------| ---------------------------------------------------------------------------------------------- |
+| **`PAI`** | The pure amount indicator.                          |
 | **`PAIa1`** | The input/output token amount of an address node.                          |
 | `PAIa11-1`  | The total input token amount of an address node.                              |
 | `PAIa11-2`  | The total output token amount of an address node.                           |
