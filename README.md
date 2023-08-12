@@ -103,7 +103,7 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `PTIa41-3`    | The average transaction time interval of an address node      |
 | `PTIa42`    | The difference between `PTIa41-1` and `PTIa41-2`    |
 | `PTIa43`    | The standard deviation of the transaction time interval of an address node       |
-| **`CI1a`**| PAI + PDI...  |
+| **`CI1a`**| **`PAI`** + **`PDI`** |
 
 | **`...`**| ...  |
 | `...`    |  ...   |
