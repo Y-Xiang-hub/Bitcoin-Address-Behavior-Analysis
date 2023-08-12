@@ -1,4 +1,4 @@
-# BABD Construction and Analysis
+![image](https://github.com/Y-Xiang-hub/Bitcoin-Address-Behavior-Analysis/assets/57489506/c9a80bcd-fa6f-4aae-9af9-e02e75bb9f9c)# BABD Construction and Analysis
 
 *NOTE: WE WILL UPLOAD A COMPLETE APPENDIX AFTER OUR PAPER IS ACCEPTED.*
 
@@ -107,9 +107,9 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `PTIa42`    | The difference between `PTIa41-1` and `PTIa41-2`    |
 | `PTIa43`    | The standard deviation of the transaction time interval of an address node       |
 | **`CI1`**| **`PAI`** + **`PDI`** |
-| `CI1a1-1`    |  The ratio of .. to ..   |
-| `CI1a1-2`    |  The ratio of .. to ..   |
-| `CI1a2`    |  The ratio of .. to ..   |
+| `CI1a1-1`    |  The ratio of `PAIa11-1` to `PDIa1-1`   |
+| `CI1a1-2`    |  The ratio of `PAIa11-2` to `PDIa1-2`   |
+| `CI1a2`    |  The ratio of `PAIa12` to `PDIa13`   |
 | **`CI2`**| **`PAI`** + **`PTI`**   |
 | `...`    |  ...   |
 | **`CI3`**| **`PDI`** + **`PTI`**   |
