@@ -1,4 +1,4 @@
-# BABD Construction and Analysis
+![image](https://github.com/Y-Xiang-hub/Bitcoin-Address-Behavior-Analysis/assets/57489506/231a57ec-e998-4233-8c7a-f8a23d490299)# BABD Construction and Analysis
 
 *NOTE: WE WILL UPLOAD A COMPLETE APPENDIX AFTER OUR PAPER IS ACCEPTED.*
 
@@ -54,7 +54,7 @@ The project was mainly completed by Ding Bao ([@whbyaoi](https://github.com/whby
 ## Contact Information
 If you have any questions please feel free to contact me by e-mail at yuexin.xiang@cug.edu.cn
 
-## Appendix (Partial)
+## Appendix 
 | Feature       | Description                                                                                    |
 | --------------| ---------------------------------------------------------------------------------------------- |
 | **`PAIa1`** | The input/output token amount of an address node.                          |
@@ -103,8 +103,12 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `PTIa41-3`    | The average transaction time interval of an address node      |
 | `PTIa42`    | The difference between `PTIa41-1` and `PTIa41-2`    |
 | `PTIa43`    | The standard deviation of the transaction time interval of an address node       |
+| **`CI1a`**| PAI + PDI...  |
+
 | **`...`**| ...  |
 | `...`    |  ...   |
+
+
 | **`S1`**      | The average degree                                                                             |
 | `S1-1`        | The average in-degree                                                                          |
 | `S1-2`        | The standard deviation of `S1-1`                                                               |
