@@ -97,10 +97,14 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `PTIa31-3`    | The average number of active instances of an address node                                      |
 | `PTIa32`      | The difference between `PTIa31-1` and `PTIa31-2`                                               |
 | `PTIa33`      | The standard deviation of the number of active instances of an address node                    |
-
-| **`X`**|     |
-| `X`    |     |
-
+| **`PTIa4`**   |   Each transaction time interval for the address node in chronological order  |
+| `PTIa41-1`    | The maximum transaction time interval of an address node      |
+| `PTIa41-2`    | The minimum transaction time interval of an address node      |
+| `PTIa41-3`    | The average transaction time interval of an address node      |
+| `PTIa42`    | The difference between `PTIa41-1` and `PTIa41-2`    |
+| `PTIa43`    | The standard deviation of the transaction time interval of an address node       |
+| **`...`**| ...  |
+| `...`    |  ...   |
 | **`S1`**      | The average degree                                                                             |
 | `S1-1`        | The average in-degree                                                                          |
 | `S1-2`        | The standard deviation of `S1-1`                                                               |
