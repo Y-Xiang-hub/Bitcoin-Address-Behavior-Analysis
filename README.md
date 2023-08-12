@@ -69,11 +69,11 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `PAIa14-4`   | The maximum output token amount of an address node                          |
 | `PAIa15-1`   | The difference between `PAIa14-2` and `PAIa14-1`                |
 | `PAIa15-2`    | The difference between `PAIa14-4` and `PAIa14-3`                       |
-| `PAIa16-1`    | The ratio of `PAIa15-1` to `PAIa14-2`.                                           |
-| `PAIa16-2`    | The ratio of `PAIa15-2` to `PAIa14-4`.                                          |
-| `PAIa17-1`    | The standard deviation of all input token amounts of an address node.             |
-| `PAIa17-2`    | The standard deviation of all output token amounts of an address node.            |
-| `PAIa17-3`    | The standard deviation of all input and output token amounts of an address node.      |
+| `PAIa16-1`    | The ratio of `PAIa15-1` to `PAIa14-2`                                           |
+| `PAIa16-2`    | The ratio of `PAIa15-2` to `PAIa14-4`                                          |
+| `PAIa17-1`    | The standard deviation of all input token amounts of an address node             |
+| `PAIa17-2`    | The standard deviation of all output token amounts of an address node            |
+| `PAIa17-3`    | The standard deviation of all input and output token amounts of an address node      |
 | **`PAIa2`**   | The ratio of each input (output) token amount and `PAIa11-1` (`PAIa11-2`) token amount    |
 | `PAIa21-1`    | The ratio of `PAIa14-1` to `PAIa11-1`                                                     |
 | `PAIa21-2`    | The ratio of `PAIa14-2` to `PAIa11-1`                                            |
@@ -81,6 +81,7 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `PAIa21-4`    | The ratio of `PAIa14-4` to `PAIa11-2`                                         |
 | `PAIa22-1`    | The standard deviation of the ratio of each input token amount and `PAIa11-1`                  |
 | `PAIa22-2`    | The standard deviation of the ratio of each output token amount and `PAIa11-2`                 |
+| **`PDI`**    | The pure degree indicator                                                                  |
 | **`PDIa`**    | The degree of an address node                                                                  |
 | `PDIa1-1`     | The in-degree of an address node                                                               |
 | `PDIa1-2`     | The out-degree of an address node                                                              |
@@ -89,6 +90,7 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `PDIa11-2`    | The ratio of `PDIa1-2` to `PDIa1-3`                                                            |
 | `PDIa12`      | The ratio of `PDIa1-1` to `PDIa1-2`                                                            |
 | `PDIa13`      | The difference between `PDIa1-1` and `PDIa1-2`                                                 |
+| **`PTI`**   | The pure time indicator |
 | **`PTIa1`**   | The lifecycle of an address node - the difference between the earliest and the latest active time |
 | **`PTIa2`**   | The active period of an address node - the number of active days during the lifecycle          |
 | `PTIa21`      | The ratio of `PTIa2` to `PTIa1`                                                                |
