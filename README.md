@@ -1,4 +1,4 @@
-![image](https://github.com/Y-Xiang-hub/Bitcoin-Address-Behavior-Analysis/assets/57489506/c11f774c-ea69-4730-b96e-3d045502d251)# BABD Construction and Analysis
+# BABD Construction and Analysis
 
 *NOTE: WE WILL UPLOAD A COMPLETE APPENDIX AFTER OUR PAPER IS ACCEPTED.*
 
