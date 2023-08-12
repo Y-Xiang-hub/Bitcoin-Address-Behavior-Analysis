@@ -97,12 +97,6 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `PTIa31-3`    | The average number of active instances of an address node                                      |
 | `PTIa32`      | The difference between `PTIa31-1` and `PTIa31-2`                                               |
 | `PTIa33`      | The standard deviation of the number of active instances of an address node                    |
-
-
-| **`X`**|     |
-| `X`    |     |
-
-
 | **`S1`**      | The average degree                                                                             |
 | `S1-1`        | The average in-degree                                                                          |
 | `S1-2`        | The standard deviation of `S1-1`                                                               |
