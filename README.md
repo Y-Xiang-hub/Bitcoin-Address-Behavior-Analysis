@@ -1,4 +1,4 @@
-![image](https://github.com/Y-Xiang-hub/Bitcoin-Address-Behavior-Analysis/assets/57489506/e1f52e50-c4a3-48b2-9dd6-a147ead1c0c2)# BABD Construction and Analysis
+# BABD Construction and Analysis
 
 This project is the source code of our dataset [BABD-13](https://www.kaggle.com/datasets/lemonx/babd13) on Kaggle. The research paper of this project can be found on [BABD: A Bitcoin Address Behavior Dataset for Pattern Analysis](https://arxiv.org/abs/2204.05746). If you find our work helpful for your research, please consider citing it as:
 
@@ -175,12 +175,12 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `CI4a22-1`    | The minimum value of `CI4a2` |
 | `CI4a22-2`    | The maximum value of `CI4a2` |
 | `CI4a23`      | The standard deviation of `CI4a2` |
-| **`CI4a3`**   | The ratio of the change in the value between the total input token amount and in-degree to `PTIa4` | 
+| **`CI4a3`**   | The ratio of the value change between the total input token amount and in-degree to `PTIa4` | 
 | `CI4a31`      | The average value of `CI4a3` |
 | `CI4a32-1`    | The minimum value of `CI4a3` |
 | `CI4a32-2`    | The maximum value of `CI4a3` |
 | `CI4a33`      | The standard deviation of `CI4a3` |
-| **`CI4a4`**   | The ratio of the change in the value between the total output token amount and out-degree to `PTIa4` | 
+| **`CI4a4`**   | The ratio of the value change between the total output token amount and out-degree to `PTIa4` | 
 | `CI4a41`      | The average value of `CI4a4` |
 | `CI4a42-1`    | The minimum value of `CI4a4` |
 | `CI4a42-2`    | The maximum value of `CI4a4` |
