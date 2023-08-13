@@ -119,14 +119,14 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `CI2a12-3`    | The minimum input token amount in a single day within the active days |
 | `CI2a12-4`    | The minimum output token amount in a single day within the active days |
 | **`CI2a2`**   | The ratio of `CI2a1` to `PTIa1` |
-| `CI2a21-1`    | The average ratio of CI2a2 (input) to `PTIa1` during the active days |
-| `CI2a21-2`    | The average ratio of CI2a2 (output) to `PTIa1` during the active days |
-| `CI2a22-1`    | The minimum ratio of CI2a2 (input) to `PTIa1` during the active days |
-| `CI2a22-2`    | The maximum ratio of CI2a2 (input) to `PTIa1` during the active days |
-| `CI2a22-3`    | The minimum ratio of CI2a2 (output) to `PTIa1` during the active days |
-| `CI2a22-4`    | The maximum ratio of CI2a2 (output) to `PTIa1` during the active days |
-| `CI2a23-1`    | The standard deviation of the ratio of CI2a2 (input) to `PTIa1` during the active days |
-| `CI2a23-2`    | The standard deviation of the ratio of CI2a2 (output) to `PTIa1` during the active days  |
+| `CI2a21-1`    | The average ratio of `CI2a2` (input) to `PTIa1` during the active days |
+| `CI2a21-2`    | The average ratio of `CI2a2` (output) to `PTIa1` during the active days |
+| `CI2a22-1`    | The minimum ratio of `CI2a2` (input) to `PTIa1` during the active days |
+| `CI2a22-2`    | The maximum ratio of `CI2a2` (input) to `PTIa1` during the active days |
+| `CI2a22-3`    | The minimum ratio of `CI2a2` (output) to `PTIa1` during the active days |
+| `CI2a22-4`    | The maximum ratio of `CI2a2` (output) to `PTIa1` during the active days |
+| `CI2a23-1`    | The standard deviation of the ratio of `CI2a2` (input) to `PTIa1` during the active days |
+| `CI2a23-2`    | The standard deviation of the ratio of `CI2a2` (output) to `PTIa1` during the active days  |
 | **`CI2a3`**   | The ratio of the change in the total input/output token amount to `PTIa4` |
 | `CI2a31-1`    | The average ratio of the change in the total input token amount to `PTIa4` |
 | `CI2a31-2`    | The average ratio of the change in the total output token amount to `PTIa4` |
