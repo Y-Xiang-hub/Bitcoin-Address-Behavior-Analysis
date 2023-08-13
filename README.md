@@ -134,8 +134,8 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `CI2a32-2`    | The maximum ratio of the change in the total input token amount to `PTIa4` |
 | `CI2a32-3`    | The minimum ratio of the change in the total output token amount to `PTIa4` |
 | `CI2a32-4`    | The maximum ratio of the change in the total output token amount to `PTIa4` |
-| `CI2a33-1`    | The standard deviation of the ratio of change in the total input token amount to `PTIa1` |
-| `CI2a33-2`    | The standard deviation of the ratio of change in the total output token amount to `PTIa1` |
+| `CI2a33-1`    | The standard deviation of the ratio of the change in the total input token amount to `PTIa1` |
+| `CI2a33-2`    | The standard deviation of the ratio of the change in the total output token amount to `PTIa1` |
 | **`CI3`**| **`PDI`** + **`PTI`**   |
 | `...`    |  ...   |
 | **`CI4`**| **`PAI`** + **`PDI`** + **`PTI`**   |
