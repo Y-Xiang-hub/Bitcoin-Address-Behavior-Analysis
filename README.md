@@ -138,28 +138,34 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `CI2a33-2`    | The standard deviation of the ratio of the change in the total output token amount to `PTIa4` |
 | **`CI3`**     | **`PDI`** + **`PTI`**   |
 | **`CI3a1`**   | The total in-degree/out-degree for each day within the active days     |
-| `CI3a11-1`    | The average `CI3a1` (in-degree) within the active days |
-| `CI3a11-2`    | The average `CI3a1` (out-degree) within the active days  |
-| `CI3a12-1`    | The maximum `CI3a1` (in-degree) within the active days |
-| `CI3a12-2`    | The maximum `CI3a1` (out-degree) within the active days|
-| `CI3a12-3`    | The minimum `CI3a1` (in-degree) within the active days|
-| `CI3a12-4`    | The minimum `CI3a1` (out-degree) within the active days|
+| `CI3a11-1`    | The average value of `CI3a1` (in-degree) within the active days |
+| `CI3a11-2`    | The average value of `CI3a1` (out-degree) within the active days  |
+| `CI3a12-1`    | The maximum value of `CI3a1` (in-degree) within the active days |
+| `CI3a12-2`    | The maximum value of `CI3a1` (out-degree) within the active days|
+| `CI3a12-3`    | The minimum value of `CI3a1` (in-degree) within the active days|
+| `CI3a12-4`    | The minimum value of `CI3a1` (out-degree) within the active days|
 | **`CI3a2`**   | The ratio of total in-degree/out-degree/total degree for each day to `PTIa1`  |
-| `CI3a21-1`    | The average `CI3a2` (in-degree) |
-| `CI3a21-2`    | The average `CI3a2` (out-degree) |
-| `CI3a21-3`    | The average `CI3a2` (total degree) |
-| `CI3a22-1`    | The minimum `CI3a2` (in-degree) |
-| `CI3a22-2`    | The maximum `CI3a2` (in-degree)|
-| `CI3a22-3`    | The minimum `CI3a2` (out-degree) |
-| `CI3a22-4`    | The maximum `CI3a2` (out-degree) |
-| `CI3a22-5`    | The minimum `CI3a2` (total degree)  |
-| `CI3a22-6`    | The maximum `CI3a2` (total degree)   |
+| `CI3a21-1`    | The average value of `CI3a2` (in-degree) |
+| `CI3a21-2`    | The average value of `CI3a2` (out-degree) |
+| `CI3a21-3`    | The average value of `CI3a2` (total degree) |
+| `CI3a22-1`    | The minimum value of `CI3a2` (in-degree) |
+| `CI3a22-2`    | The maximum value of `CI3a2` (in-degree)|
+| `CI3a22-3`    | The minimum value of `CI3a2` (out-degree) |
+| `CI3a22-4`    | The maximum value of `CI3a2` (out-degree) |
+| `CI3a22-5`    | The minimum value of `CI3a2` (total degree)  |
+| `CI3a22-6`    | The maximum value of `CI3a2` (total degree)   |
 | `CI3a23-1`    | The standard deviation of `CI3a2` (in-degree) |
 | `CI3a23-2`    | The standard deviation of `CI3a2` (out-degree) |
 | `CI3a23-3`    | The standard deviation of `CI3a2` (total degree) |
-| **`CI3a3`**   | The ratio of the change in in-degree to `PTIa4` |
-
-| `...`    |  ...   |
+| **`CI3a3`**   | The ratio of the change in in-degree/out-degree to `PTIa4` |
+| `CI3a31-1`    | The average value of `CI3a3` (in-degree)|
+| `CI3a31-2`    | The average value of `CI3a3` (out-degree) |
+| `CI3a32-1`    | The minimum value of `CI3a3` (in-degree) |
+| `CI3a32-2`    | The maximum value of `CI3a3` (in-degree)  |
+| `CI3a32-3`    | The minimum value of `CI3a3` (out-degree) |
+| `CI3a32-4`    | The maximum value of `CI3a3` (out-degree)   |
+| `CI3a33-1`    | The standard deviation of `CI3a3` (in-degree)  |
+| `CI3a33-2`    | The standard deviation of `CI3a3` (out-degree) |
 | **`CI4`**| **`PAI`** + **`PDI`** + **`PTI`**   |
 | `...`    |  ...   |
 | **`S1`**      | The average degree                                                                             |
