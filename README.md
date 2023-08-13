@@ -136,7 +136,14 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `CI2a32-4`    | The maximum ratio of the change in the total output token amount to `PTIa4` |
 | `CI2a33-1`    | The standard deviation of the ratio of the change in the total input token amount to `PTIa1` |
 | `CI2a33-2`    | The standard deviation of the ratio of the change in the total output token amount to `PTIa1` |
-| **`CI3`**| **`PDI`** + **`PTI`**   |
+| **`CI3`**     | **`PDI`** + **`PTI`**   |
+| **`CI3a1`**   | The total in-degree/out-degree for each day within the active days     |
+| `CI3a11-1`    | The average `CI3a1` (in-degree) within the active days |
+| `CI3a11-2`    | The average `CI3a1` (out-degree) within the active days  |
+| `CI3a12-1`    | The maximum `CI3a1` (in-degree) within the active days |
+| `CI3a12-2`    | The maximum `CI3a1` (out-degree) within the active days|
+| `CI3a12-3`    | The minimum `CI3a1` (in-degree) within the active days|
+| `CI3a12-4`    | The minimum `CI3a1` (out-degree) within the active days|
 | `...`    |  ...   |
 | **`CI4`**| **`PAI`** + **`PDI`** + **`PTI`**   |
 | `...`    |  ...   |
