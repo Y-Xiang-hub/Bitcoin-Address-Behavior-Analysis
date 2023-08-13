@@ -1,6 +1,4 @@
-# BABD Construction and Analysis
-
-*NOTE: WE WILL UPLOAD A COMPLETE APPENDIX AFTER OUR PAPER IS ACCEPTED.*
+![image](https://github.com/Y-Xiang-hub/Bitcoin-Address-Behavior-Analysis/assets/57489506/e1f52e50-c4a3-48b2-9dd6-a147ead1c0c2)# BABD Construction and Analysis
 
 This project is the source code of our dataset [BABD-13](https://www.kaggle.com/datasets/lemonx/babd13) on Kaggle. The research paper of this project can be found on [BABD: A Bitcoin Address Behavior Dataset for Pattern Analysis](https://arxiv.org/abs/2204.05746). If you find our work helpful for your research, please consider citing it as:
 
@@ -166,8 +164,27 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | `CI3a32-4`    | The maximum value of `CI3a3` (out-degree)   |
 | `CI3a33-1`    | The standard deviation of `CI3a3` (in-degree)  |
 | `CI3a33-2`    | The standard deviation of `CI3a3` (out-degree) |
-| **`CI4`**| **`PAI`** + **`PDI`** + **`PTI`**   |
-| `...`    |  ...   |
+| **`CI4`**     | **`PAI`** + **`PDI`** + **`PTI`**   |
+| **`CI4a1`**   | The ratio of `CI1a1-1` to `PTIa1` |
+| `CI4a11`      | The average value of `CI4a1` |
+| `CI4a12-1`    | The minimum value of `CI4a1` |
+| `CI4a12-2`    | The maximum value of `CI4a1` |
+| `CI4a13`      | The standard deviation of `CI4a1` |
+| **`CI4a2`**   | The ratio of `CI1a1-2` to `PTIa1` |
+| `CI4a21`      | The average value of `CI4a2` |
+| `CI4a22-1`    | The minimum value of `CI4a2` |
+| `CI4a22-2`    | The maximum value of `CI4a2` |
+| `CI4a23`      | The standard deviation of `CI4a2` |
+| **`CI4a3`**   | The ratio of the change in the value between the total input token amount and in-degree to `PTIa4` | 
+| `CI4a31`      | The average value of `CI4a3` |
+| `CI4a32-1`    | The minimum value of `CI4a3` |
+| `CI4a32-2`    | The maximum value of `CI4a3` |
+| `CI4a33`      | The standard deviation of `CI4a3` |
+| **`CI4a4`**   | The ratio of the change in the value between the total output token amount and out-degree to `PTIa4` | 
+| `CI4a41`      | The average value of `CI4a4` |
+| `CI4a42-1`    | The minimum value of `CI4a4` |
+| `CI4a42-2`    | The maximum value of `CI4a4` |
+| `CI4a43`      | The standard deviation of `CI4a4` |
 | **`S1`**      | The average degree                                                                             |
 | `S1-1`        | The average in-degree                                                                          |
 | `S1-2`        | The standard deviation of `S1-1`                                                               |
@@ -186,9 +203,3 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | **`S7`**      | The closeness centrality                                                                       |
 | **`S8`**      | The PageRank                                                                                   |
 | **`S9`**      | The density                                                                                    |
-
-
-
-
-
-
