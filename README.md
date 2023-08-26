@@ -50,7 +50,7 @@ The project was mainly completed by Ding Bao ([@whbyaoi](https://github.com/whby
 - Yuexin Xiang wrote the original version of the Bitcoin ledger collection tool and graph initialization and finished machine-learning-powered data analysis including but not limited to preprocessing.
 
 ## Contact Information
-If you have any questions please feel free to contact me by e-mail at yuexin.xiang@cug.edu.cn
+If you have any questions please feel free to contact me by e-mail at yuexin.xiang@cug.edu.cn.
 
 ## Appendix 
 | Feature       | Description                                                                                    |
