@@ -204,4 +204,4 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | **`S8`**      | The PageRank                                                                                   |
 | **`S9`**      | The density                                                                                    |
 
-*Note: For the address node features in the tables, we recalculated them by merging identical edges in the Bitcoin graph, adding new features such as PAIa11-R1 instead of just using PAIa11-1.*
+*Note: For the address node features in `BABD-13`, we recalculated them by merging identical edges in the Bitcoin graph, adding new features such as PAIa11-R1 instead of just using PAIa11-1.*
