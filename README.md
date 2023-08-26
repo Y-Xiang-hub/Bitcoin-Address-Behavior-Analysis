@@ -204,4 +204,4 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 | **`S8`**      | The PageRank                                                                                   |
 | **`S9`**      | The density                                                                                    |
 
-*Note: In *`BABD-13`*, we recalculated some features by merging identical edges in the Bitcoin graph, adding these new features such as PAIa11-R1 instead of just using PAIa11-1 to the dataset.*
+*Note: In* `BABD-13`*, we recalculated some features by merging identical edges in the Bitcoin graph, adding these new features such as PAIa11-R1 instead of just using PAIa11-1 to the dataset.*
