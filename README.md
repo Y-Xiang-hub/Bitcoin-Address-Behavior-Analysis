@@ -53,6 +53,8 @@ The project was mainly completed by Ding Bao ([@whbyaoi](https://github.com/whby
 If you have any questions please feel free to contact me by e-mail at yuexin.xiang@cug.edu.cn.
 
 ## Appendix 
+This part corresponds to Table II and Table III in the paper.
+
 | Feature       | Description                                                                                    |
 | --------------| ---------------------------------------------------------------------------------------------- |
 | **`PAI`**     | The pure amount indicator                          |
