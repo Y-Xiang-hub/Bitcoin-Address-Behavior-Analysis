@@ -9,6 +9,8 @@ This project is the source code of our dataset [BABD-13](https://www.kaggle.com/
       year={2022}
     }
     
+If you have any questions please feel free to contact me by e-mail at yuexin.xiang@cug.edu.cn.
+
 ## Contents
 
 - [Data Collection](#data-collection)
@@ -18,7 +20,6 @@ This project is the source code of our dataset [BABD-13](https://www.kaggle.com/
 - [Data Analysis](#data-analysis)
 - [Additional Notes](#additional-notes)
 - [Credits](#credits)
-- [Contact Information](#contact-information)
 - [Appendix](#appendix)
 
  
@@ -48,9 +49,6 @@ The project was mainly completed by Ding Bao ([@whbyaoi](https://github.com/whby
 - Ding Bao finished most of the code for the metrics, both in terms of amount and complexity. Not only that, but he also wrote efficient crawlers to fulfill the need of building the dataset presented in the paper and examined the collected data in detail.
 - Yuchen Lei authored the core module, directed parallelization improvements, fixed some bugs in the code, and proposed several helpful pieces of advice for machine-learning-based classification.
 - Yuexin Xiang wrote the original version of the Bitcoin ledger collection tool and graph initialization and finished machine-learning-powered data analysis including but not limited to preprocessing.
-
-## Contact Information
-If you have any questions please feel free to contact me by e-mail at yuexin.xiang@cug.edu.cn.
 
 ## Appendix 
 This part corresponds to Table II and Table III in the paper.
