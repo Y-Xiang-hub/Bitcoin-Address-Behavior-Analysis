@@ -56,7 +56,7 @@ The project was mainly completed by Ding Bao ([@whbyaoi](https://github.com/whby
 
 [2] Xiang, Y., Li, T., & Li, Y. (2022, December). [Leveraging Subgraph Structure for Exploration and Analysis of Bitcoin Address](https://ieeexplore.ieee.org/abstract/document/10020980). In 2022 IEEE International Conference on Big Data (Big Data) (pp. 1957-1962). IEEE. [[Data and Code]](https://www.kaggle.com/datasets/lemonx/basd8)
 
-[3] Bao, D., Ren, W., Xiang, Y., Liu, W., Zhu, T., Ren, Y., & Choo, K. K. R. (2023). [BTC-Shadow: an analysis and visualization system for exposing implicit behaviors in Bitcoin transaction graphs](https://link.springer.com/article/10.1007/s11704-023-2531-0). Frontiers of Computer Science, 17(6), 1-3.
+[3] Bao, D., Ren, W., Xiang, Y., Liu, W., Zhu, T., Ren, Y., & Choo, K. K. R. (2023). [BTC-Shadow: an analysis and visualization system for exposing implicit behaviors in Bitcoin transaction graphs](https://link.springer.com/article/10.1007/s11704-023-2531-0). Frontiers of Computer Science, 17(6), 1-3. [[Demo]](https://github.com/whbyaoi/BTCShadow)
 
 ## Appendix 
 This part corresponds to Table II and Table III in the paper.
