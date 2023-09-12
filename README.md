@@ -20,6 +20,7 @@ If you have any questions please feel free to contact me by e-mail at yuexin.xia
 - [Data Analysis](#data-analysis)
 - [Additional Notes](#additional-notes)
 - [Credits](#credits)
+- [Extended Research](#extended-research)
 - [Appendix](#appendix)
 
  
@@ -41,7 +42,7 @@ The results of the feature extraction module are stored in .csv files. However, 
 We use the tools and models provided by [scikit-learn](https://scikit-learn.org/) and [xgboost](https://xgboost.ai/) to analyze and study our data, the code can be seen in `feature_selection.py` and `machine_learning.py` in `data_analysis` folder. The specific analysis of our dataset can be found in our [paper](https://arxiv.org/abs/2204.05746). Additionally, we also propose a method to divide the testing set and training set while considering the even assignment of strong label address and weak label address in `split_train_test.py` that is completed by Tiantian Li ([@oopshell](https://github.com/oopshell)).
 
 ## Additional Notes
-In the `format` folder, `csv_format.yml` is the header of raw feature data .csv files, and `original_ledger_format.json` is an example of the Bitcoin ledger we use. In addition, `networkx_test_version.py` in the `networkx_test` folder is the testing code of our designed methods implemented by [NetworkX](https://networkx.org/) that can only utilize for tests on small graphs.
+In the `format` folder, `csv_format.yml` is the header of raw feature data .csv files, and `original_ledger_format.json` is an example of the Bitcoin ledger we use. In addition, `networkx_test_version.py` in the `networkx_test` folder is the testing code of our designed methods implemented by [NetworkX](https://networkx.org/) that can only be utilized for tests on small graphs.
 
 ## Credits
 The project was mainly completed by Ding Bao ([@whbyaoi](https://github.com/whbyaoi)), Yuchen Lei ([@TooYoungTooSimp](https://github.com/TooYoungTooSimp)), and Yuexin Xiang ([@Y-Xiang-hub](https://github.com/Y-Xiang-hub)).
@@ -49,6 +50,10 @@ The project was mainly completed by Ding Bao ([@whbyaoi](https://github.com/whby
 - Ding Bao finished most of the code for the metrics, both in terms of amount and complexity. Not only that, but he also wrote efficient crawlers to fulfill the need of building the dataset presented in the paper and examined the collected data in detail.
 - Yuchen Lei authored the core module, directed parallelization improvements, fixed some bugs in the code, and proposed several helpful pieces of advice for machine-learning-based classification.
 - Yuexin Xiang wrote the original version of the Bitcoin ledger collection tool and graph initialization and finished machine-learning-powered data analysis including but not limited to preprocessing.
+
+## Extended Research
+
+
 
 ## Appendix 
 This part corresponds to Table II and Table III in the paper.
