@@ -52,9 +52,9 @@ The project was mainly completed by Ding Bao ([@whbyaoi](https://github.com/whby
 - Yuexin Xiang wrote the original version of the Bitcoin ledger collection tool and graph initialization and finished machine-learning-powered data analysis including but not limited to preprocessing.
 
 ## Extended Research
-[1] Yang, Q., Xiang, Y., Liu, W., & Ren, W. (2022, December). An Illicit Bitcoin Address Analysis Scheme Based on Subgraph Evolution. In 2022 IEEE 24th Int Conf on High Performance Computing & Communications; 8th Int Conf on Data Science & Systems; 20th Int Conf on Smart City; 8th Int Conf on Dependability in Sensor, Cloud & Big Data Systems & Application (HPCC/DSS/SmartCity/DependSys) (pp. 679-686). IEEE. [[Data]](https://www.kaggle.com/datasets/lemonx/basd8)
+[1] Yang, Q., Xiang, Y., Liu, W., & Ren, W. (2022, December). An Illicit Bitcoin Address Analysis Scheme Based on Subgraph Evolution. In 2022 IEEE 24th Int Conf on High Performance Computing & Communications; 8th Int Conf on Data Science & Systems; 20th Int Conf on Smart City; 8th Int Conf on Dependability in Sensor, Cloud & Big Data Systems & Application (HPCC/DSS/SmartCity/DependSys) (pp. 679-686). IEEE. [[Data]](https://www.kaggle.com/datasets/lemonx/bitcoin-subgraph-evolution-data)
 
-[2] Xiang, Y., Li, T., & Li, Y. (2022, December). Leveraging Subgraph Structure for Exploration and Analysis of Bitcoin Address. In 2022 IEEE International Conference on Big Data (Big Data) (pp. 1957-1962). IEEE. [[Data and Code]](https://www.kaggle.com/datasets/lemonx/bitcoin-subgraph-evolution-data)
+[2] Xiang, Y., Li, T., & Li, Y. (2022, December). Leveraging Subgraph Structure for Exploration and Analysis of Bitcoin Address. In 2022 IEEE International Conference on Big Data (Big Data) (pp. 1957-1962). IEEE. [[Data and Code]](https://www.kaggle.com/datasets/lemonx/basd8)
 
 [3] Bao, D., Ren, W., Xiang, Y., Liu, W., Zhu, T., Ren, Y., & Choo, K. K. R. (2023). BTC-Shadow: an analysis and visualization system for exposing implicit behaviors in Bitcoin transaction graphs. Frontiers of Computer Science, 17(6), 1-3.
 
