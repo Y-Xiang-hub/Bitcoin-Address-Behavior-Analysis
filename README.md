@@ -53,7 +53,9 @@ The project was mainly completed by Ding Bao ([@whbyaoi](https://github.com/whby
 
 ## Extended Research
 [1] Yang, Qingqing, et al. "An Illicit Bitcoin Address Analysis Scheme Based on Subgraph Evolution." 2022 IEEE 24th Int Conf on High Performance Computing & Communications; 8th Int Conf on Data Science & Systems; 20th Int Conf on Smart City; 8th Int Conf on Dependability in Sensor, Cloud & Big Data Systems & Application (HPCC/DSS/SmartCity/DependSys). IEEE, 2022. [Data and Code](https://www.kaggle.com/datasets/lemonx/basd8)
+
 [2] Xiang, Yuexin, Tiantian Li, and Yuquan Li. "Leveraging Subgraph Structure for Exploration and Analysis of Bitcoin Address." 2022 IEEE International Conference on Big Data (Big Data). IEEE, 2022. [Data](https://www.kaggle.com/datasets/lemonx/bitcoin-subgraph-evolution-data)
+
 [3] Bao, Ding, et al. "BTC-Shadow: an analysis and visualization system for exposing implicit behaviors in Bitcoin transaction graphs." Frontiers of Computer Science 17.6 (2023): 1-3. 
 
 ## Appendix 
