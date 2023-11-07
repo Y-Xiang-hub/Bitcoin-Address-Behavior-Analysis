@@ -9,7 +9,7 @@ This project is the source code of our dataset [BABD-13](https://www.kaggle.com/
       year={2022}
     }
     
-If you have any questions please feel free to contact me by e-mail at yuexin.xiang@cug.edu.cn.
+If you have any questions please feel free to contact me by e-mail at Yuexin.Xiang@monash.edu.
 
 ## Contents
 
