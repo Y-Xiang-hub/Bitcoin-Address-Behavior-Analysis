@@ -1,6 +1,6 @@
 # BABD Construction and Analysis
 
-This project is the source code of our dataset [BABD-13](https://www.kaggle.com/datasets/lemonx/babd13) on Kaggle. The research paper of this project can be found on [BABD: A Bitcoin Address Behavior Dataset for Pattern Analysis](https://arxiv.org/abs/2204.05746). If you find our work helpful for your research, please consider citing it as:
+This project is the source code for constructing our dataset [BABD-13](https://www.kaggle.com/datasets/lemonx/babd13) which is available on Kaggle. The research paper of this project can be found on [BABD: A Bitcoin Address Behavior Dataset for Pattern Analysis](https://arxiv.org/abs/2204.05746). If you find our work helpful for your research, please consider citing it as:
 
     @article{xiang2022babd,
       title={BABD: A Bitcoin Address Behavior Dataset for Pattern Analysis},
