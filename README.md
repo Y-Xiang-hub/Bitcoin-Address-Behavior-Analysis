@@ -1,12 +1,16 @@
 # BABD Construction and Analysis
 
-This project provides the source code for building [BABD-13](https://www.kaggle.com/datasets/lemonx/babd13), which is accessible on Kaggle. The research paper for this project, titled [BABD: A Bitcoin Address Behavior Dataset for Pattern Analysis](https://arxiv.org/abs/2204.05746), is available at arXiv. If you find our work helpful for your research, please consider citing it as:
+This project provides the source code for building [BABD-13](https://www.kaggle.com/datasets/lemonx/babd13), which is accessible on Kaggle. The research paper for this project, titled [BABD: A Bitcoin Address Behavior Dataset for Pattern Analysis](https://doi.org/10.1109/TIFS.2023.3347894), is available at arXiv. If you find our work helpful for your research, please consider citing it as:
 
-    @article{xiang2022babd,
-      title={BABD: A Bitcoin Address Behavior Dataset for Pattern Analysis},
-      author={Xiang, Yuexin and Lei, Yuchen and Bao, Ding and Ren, Wei and Li, Tiantian and Yang, Qingqing and Liu, Wenmao and Zhu, Tianqing and Choo, Kim-Kwang Raymond},
-      journal={arXiv preprint arXiv:2204.05746},
-      year={2022}
+    @article{xiang2023babd,
+      author={Xiang, Yuexin and Lei, Yuchen and Bao, Ding and Li, Tiantian and Yang, Qingqing and Liu, Wenmao and Ren, Wei and Choo, Kim-Kwang Raymond},
+      journal={IEEE Transactions on Information Forensics and Security}, 
+      title={BABD: A Bitcoin Address Behavior Dataset for Pattern Analysis}, 
+      year={2023},
+      volume={},
+      number={},
+      pages={1-1},
+      doi={10.1109/TIFS.2023.3347894}
     }
     
 If you have any questions please feel free to contact me by e-mail at Yuexin.Xiang@monash.edu.
