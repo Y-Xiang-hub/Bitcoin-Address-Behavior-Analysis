@@ -6,7 +6,7 @@ This project provides the source code for building [BABD-13](https://www.kaggle.
       author={Xiang, Yuexin and Lei, Yuchen and Bao, Ding and Li, Tiantian and Yang, Qingqing and Liu, Wenmao and Ren, Wei and Choo, Kim-Kwang Raymond},
       journal={IEEE Transactions on Information Forensics and Security}, 
       title={BABD: A Bitcoin Address Behavior Dataset for Pattern Analysis}, 
-      year={2023},
+      year={2024},
       volume={19},
       pages={2171-2185},
       doi={10.1109/TIFS.2023.3347894}
