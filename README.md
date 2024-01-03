@@ -7,9 +7,8 @@ This project provides the source code for building [BABD-13](https://www.kaggle.
       journal={IEEE Transactions on Information Forensics and Security}, 
       title={BABD: A Bitcoin Address Behavior Dataset for Pattern Analysis}, 
       year={2023},
-      volume={},
-      number={},
-      pages={1-1},
+      volume={19},
+      pages={2171-2185},
       doi={10.1109/TIFS.2023.3347894}
     }
     
