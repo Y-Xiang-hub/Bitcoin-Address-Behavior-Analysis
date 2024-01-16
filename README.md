@@ -40,7 +40,7 @@ In this process, we need to extract the required features from the generated Bit
 
 The methods to extract statistical features and structural features can be found in `moduleG.py`. Then, we run the code in `data_extraction.ipynb` to extract features. Specifically, we need to read the generated Bitcoin transaction graph first through the *read the graph* cell. After reading the graph, we can compute the statistical and local structural features in different cells. 
 
-The primary difference between these two types of features is that we generate a subgraph before extracting local structural features. Besides, to accelerate the speed of feature extraction, we apply the parallel computing approach here.
+The primary difference between these two types of features is that we generate a subgraph before extracting local structural features. To accelerate the speed of feature extraction, we apply the parallel computing approach here.
  
 ## Data Preprocess
 The results of the feature extraction module are stored in .csv files. However, for further analyzing the data, it is necessary to preprocess the current data by `functions_csv_preprocess.py` in the `preprocess_csv` folder.
