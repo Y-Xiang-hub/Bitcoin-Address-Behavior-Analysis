@@ -28,7 +28,7 @@ If you have any questions please feel free to contact me by e-mail at Yuexin.Xia
 
  
 ## Data Collection
-In the `data_collection folder`, `Bitcoin_Ledger_Reader_V3.1.py` is used for collecting Bitcoin ledger data from [BTC.com](https://btc.com/), also partial Bitcoin ledger data from height 600,000 to 659,999 are available on our [Kaggle BABD-13](https://www.kaggle.com/datasets/lemonx/babd13). `labeled_data_API.py` is used for collecting Bitcoin labeled addresses from [WalletExplorer](https://www.walletexplorer.com/) that is completed by Qingqing Yang ([@Vinedou](https://github.com/Vinedou)). Here we would like to thank [Aleš Janda](http://www.alesjanda.cz/) for his generous help.
+In the `data_collection folder`, `Bitcoin_Ledger_Reader_V3.1.py` is used for collecting Bitcoin ledger data from [BTC.com](https://btc.com/), also partial Bitcoin ledger data from height 600,000 to 605,999 are available on our [Kaggle BABD-13](https://www.kaggle.com/datasets/lemonx/babd13). `labeled_data_API.py` is used for collecting Bitcoin labeled addresses from [WalletExplorer](https://www.walletexplorer.com/) that is completed by Qingqing Yang ([@Vinedou](https://github.com/Vinedou)). Here we would like to thank [Aleš Janda](http://www.alesjanda.cz/) for his generous help.
  
 ## Graph Generation
 To generate a Bitcoin transaction graph from raw Bitcoin ledger data, it is necessary to select the attributes needed for the following analysis steps first which can be found in `graph_generation.py`. Then we use `graph_generation.py` to generate the Bitcoin transaction graph that is implemented by [graph-tool](https://graph-tool.skewed.de/).
