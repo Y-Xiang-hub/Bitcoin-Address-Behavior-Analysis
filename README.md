@@ -38,7 +38,9 @@ To generate a Bitcoin transaction graph from raw Bitcoin ledger data, it is nece
 ## Feature Extraction
 In this process, we need to extract the required features from the generated Bitcoin transaction graph for the concrete labeled Bitcoin addresses. There are two kinds of features we are concerned about in this work that are **statistical features** and **local structural features**.
 
-The methods to extract statistical features and structural features can be found in `moduleG.py`. Then, we run the code in `data_extraction.ipynb` to extract features. Specifically, we need to read the generated Bitcoin transaction graph first through the *read the graph* cell. After reading the graph, we can compute the statistical and local structural features in different cells. The only difference between these two types of features is that we have to generate a subgraph before extracting local structural features. Besides, in order to accelerate the speed of feature extraction, we apply the parallel computing approach here.
+The methods to extract statistical features and structural features can be found in `moduleG.py`. Then, we run the code in `data_extraction.ipynb` to extract features. Specifically, we need to read the generated Bitcoin transaction graph first through the *read the graph* cell. After reading the graph, we can compute the statistical and local structural features in different cells. 
+
+The primary difference between these two types of features is that we generate a subgraph before extracting local structural features. Besides, to accelerate the speed of feature extraction, we apply the parallel computing approach here.
  
 ## Data Preprocess
 The results of the feature extraction module are stored in .csv files. However, for further analyzing the data, it is necessary to preprocess the current data by `functions_csv_preprocess.py` in the `preprocess_csv` folder.
