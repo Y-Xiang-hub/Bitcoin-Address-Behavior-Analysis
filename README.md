@@ -46,7 +46,9 @@ The primary difference between these two types of features is that we generate a
 The results of the feature extraction module are stored in .csv files. However, for further analyzing the data, it is necessary to preprocess the current data by `functions_csv_preprocess.py` in the `preprocess_csv` folder.
 
 ## Data Analysis
-We use the tools and models provided by [scikit-learn](https://scikit-learn.org/) and [xgboost](https://xgboost.ai/) to analyze and study our data, the code can be seen in `feature_selection.py` and `machine_learning.py` in `data_analysis` folder. The specific analysis of our dataset can be found in our [paper](https://doi.org/10.1109/TIFS.2023.3347894). Additionally, we also propose a method to divide the testing set and training set while considering the even assignment of strong label address and weak label address in `split_train_test.py` that is completed by Tiantian Li ([@oopshell](https://github.com/oopshell)).
+We use the tools and models provided by [scikit-learn](https://scikit-learn.org/) and [xgboost](https://xgboost.ai/) to analyze and study our data, the code can be seen in `feature_selection.py` and `machine_learning.py` in `data_analysis` folder. The specific analysis of our dataset can be found in our [paper](https://doi.org/10.1109/TIFS.2023.3347894). 
+
+Additionally, we also propose a method to divide the testing set and training set while considering the even assignment of strong label address and weak label address in `split_train_test.py` that is completed by Tiantian Li ([@oopshell](https://github.com/oopshell)).
 
 ## Additional Notes
 In the `format` folder, `csv_format.yml` is the header of raw feature data .csv files, and `original_ledger_format.json` is an example of the Bitcoin ledger we use. In addition, `networkx_test_version.py` in the `networkx_test` folder is the testing code of our designed methods implemented by [NetworkX](https://networkx.org/) that can only be utilized for tests on small graphs.
@@ -60,7 +62,9 @@ The project was mainly completed by Ding Bao ([@whbyaoi](https://github.com/whby
 
 ## Extended Research
 - Yang, Q., Xiang, Y., Liu, W., & Ren, W. (2022, December). [An Illicit Bitcoin Address Analysis Scheme Based on Subgraph Evolution](https://ieeexplore.ieee.org/abstract/document/10074805). In 2022 IEEE 24th Int Conf on High Performance Computing & Communications; 8th Int Conf on Data Science & Systems; 20th Int Conf on Smart City; 8th Int Conf on Dependability in Sensor, Cloud & Big Data Systems & Application (HPCC/DSS/SmartCity/DependSys) (pp. 679-686). IEEE. [[Data]](https://www.kaggle.com/datasets/lemonx/bitcoin-subgraph-evolution-data)
+
 -  Xiang, Y., Li, T., & Li, Y. (2022, December). [Leveraging Subgraph Structure for Exploration and Analysis of Bitcoin Address](https://ieeexplore.ieee.org/abstract/document/10020980). In 2022 IEEE International Conference on Big Data (Big Data) (pp. 1957-1962). IEEE. [[Data and Code]](https://www.kaggle.com/datasets/lemonx/basd8)
+
 -  Bao, D., Ren, W., Xiang, Y., Liu, W., Zhu, T., Ren, Y., & Choo, K. K. R. (2023). [BTC-Shadow: An Analysis and Visualization System for Exposing Implicit Behaviors in Bitcoin Transaction Graphs](https://link.springer.com/article/10.1007/s11704-023-2531-0). Frontiers of Computer Science, 17(6), 1-3. [[Demo]](https://github.com/whbyaoi/BTCShadow)
 
 ## Appendix 
