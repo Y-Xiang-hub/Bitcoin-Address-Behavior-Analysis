@@ -30,9 +30,7 @@ If you have any questions please feel free to contact me by e-mail at Yuexin.Xia
 ## Data Collection
 In the `data_collection` folder, `Bitcoin_Ledger_Reader_V3.1.py` is used for collecting Bitcoin ledger data from [BTC.com](https://btc.com/), also we share **partial Bitcoin ledger data** in JSON format from height 600,000 to 605,999 on our [Kaggle BABD-13](https://www.kaggle.com/datasets/lemonx/babd13) since the whole raw Bitcoin ledger data are too large. We also recommend using [BlockSci](https://github.com/citp/BlockSci) for raw Bitcoin ledger collection, the collected JSON format may be somewhat different from the format in this work but can be modified.
 
-`labeled_data_API.py` is used for collecting Bitcoin addresses with labels from [WalletExplorer](https://www.walletexplorer.com/) that is completed by Qingqing Yang ([@Vinedou](https://github.com/Vinedou)). The collected labeled Bitcoin addresses are saved in .csv files as shown in `data_collection` folder (we will update the format recently). 
-
-These .csv files, including only Bitcoin addresses and their labels, are loaded in all *processing indicators* cells in `data_extraction.ipynb` (we recommend using cells noted *parallel computing* to calculate features for faster processing).
+`labeled_data_API.py` is used for collecting Bitcoin addresses with labels from [WalletExplorer](https://www.walletexplorer.com/) that is completed by Qingqing Yang ([@Vinedou](https://github.com/Vinedou)). The collected labeled Bitcoin addresses are saved in .csv files (we named them `Bitcoin_Ads_type.csv` files for easier understanding) as shown in `data_collection` folder (we will update the format recently). The `Bitcoin_Ads_type.csv` files, including only Bitcoin addresses and their labels, are loaded in all *processing indicators* cells in `data_extraction.ipynb`.
 
 Notably, we would like to thank [Aleš Janda](http://www.alesjanda.cz/) for his generous help in providing API.
  
@@ -42,12 +40,15 @@ To generate a Bitcoin transaction graph as we designed (shown in Fig. 1 in our p
 In this step, we input continuous Bitcoin ledger data in JSON format (see JSON examples in [Kaggle BABD-13](https://www.kaggle.com/datasets/lemonx/babd13)) to generate the Bitcoin transaction graph consisting of two files `revmap.pkl` and `BitcoinGraph.gt`. These two files are loaded in the first cell of `data_extraction.ipynb` as the preparation before calculating the features of Bitcoin addresses with labels. 
 
 ## Feature Extraction
-In this process, we need to extract the required features from the generated Bitcoin transaction graph for the concrete labeled Bitcoin addresses. There are two kinds of features we are concerned about in this work that are **statistical features** and **local structural features**.
+In this process, we extract the required features from the generated Bitcoin transaction graph for the concrete labeled Bitcoin addresses. There are two kinds of features we are concerned about in this work that are **statistical features** and **local structural features**. The methods to extract statistical and structural features can be found in `moduleG.py`. 
 
-The methods to extract statistical features and structural features can be found in `moduleG.py`. Then, we run the code in `data_extraction.ipynb` to extract features. Specifically, we need to read the generated Bitcoin transaction graph first through the *read the graph* cell. After reading the graph, we can compute the statistical and local structural features in different cells. 
+The primary difference between calculating these two types of features is that we generate a subgraph before extracting local structural features. To accelerate the speed of feature extraction, we apply the parallel computing approach here.
 
-The primary difference between these two types of features is that we generate a subgraph before extracting local structural features. To accelerate the speed of feature extraction, we apply the parallel computing approach here.
- 
+Next, we run the code in `data_extraction.ipynb` to extract features. First, we load the generated Bitcoin transaction graph (i.e., `revmap.pkl` and `BitcoinGraph.gt`) through the *read the graph* cell. 
+
+After loading the whole graph, we input `Bitcoin_Ads_type.csv` files with only Bitcoin addresses and their corresponding labels to further compute the statistical and local structural features in different *processing indicators* cells in `data_extraction.ipynb` (we recommend using cells noted *parallel computing* to calculate features for faster processing). 
+
+
 ## Data Preprocess
 The results of the feature extraction module are stored in .csv files. However, for further analyzing the data, it is necessary to preprocess the current data by `functions_csv_preprocess.py` in the `preprocess_csv` folder.
 
