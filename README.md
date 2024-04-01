@@ -40,13 +40,9 @@ To generate a Bitcoin transaction graph as we designed (shown in Fig. 1 in our p
 In this step, we input continuous Bitcoin ledger data in JSON format (see JSON examples in [Kaggle BABD-13](https://www.kaggle.com/datasets/lemonx/babd13)) to generate the Bitcoin transaction graph consisting of two files `revmap.pkl` and `BitcoinGraph.gt`. These two files are loaded in the first cell of `data_extraction.ipynb` as the preparation before calculating the features of Bitcoin addresses with labels. 
 
 ## Feature Extraction
-In this process, we extract the required features from the generated Bitcoin transaction graph for the concrete labeled Bitcoin addresses. There are two kinds of features we are concerned about in this work that are **statistical features** and **local structural features**. The methods to extract statistical and structural features can be found in `moduleG.py`. 
+In this process, we extract the required features from the generated Bitcoin transaction graph for the concrete labeled Bitcoin addresses. There are two kinds of features we are concerned about in this work that are **statistical features** and **local structural features**. The methods to extract statistical and structural features can be found in `moduleG.py`. The primary difference between calculating these two types of features is that we generate a subgraph before extracting local structural features. To accelerate the speed of feature extraction, we apply the parallel computing approach here.
 
-The primary difference between calculating these two types of features is that we generate a subgraph before extracting local structural features. To accelerate the speed of feature extraction, we apply the parallel computing approach here.
-
-Next, we run the code in `data_extraction.ipynb` to extract features. First, we load the generated Bitcoin transaction graph (i.e., `revmap.pkl` and `BitcoinGraph.gt`) through the *read the graph* cell. 
-
-After loading the whole graph, we input `Bitcoin_Ads_type.csv` files with only Bitcoin addresses and their corresponding labels to further compute the statistical and local structural features in different *processing indicators* cells in `data_extraction.ipynb` (we recommend using cells noted *parallel computing* to calculate features for faster processing). 
+Next, we run the code in `data_extraction.ipynb` to extract features. First, we load the generated Bitcoin transaction graph (i.e., `revmap.pkl` and `BitcoinGraph.gt`) through the *read the graph* cell. After loading the whole graph, we input `Bitcoin_Ads_type.csv` files with only Bitcoin addresses and their corresponding labels to further compute the statistical and local structural features in different *processing indicators* cells in `data_extraction.ipynb` (we recommend using cells noted *parallel computing* to calculate features for faster processing). 
 
 
 ## Data Preprocess
