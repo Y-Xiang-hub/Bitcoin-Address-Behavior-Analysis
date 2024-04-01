@@ -30,7 +30,9 @@ If you have any questions please feel free to contact me by e-mail at Yuexin.Xia
 ## Data Collection
 In the `data_collection` folder, `Bitcoin_Ledger_Reader_V3.1.py` is used for collecting Bitcoin ledger data from [BTC.com](https://btc.com/), also **partial Bitcoin ledger data** in JSON format from height 600,000 to 605,999 are available on our [Kaggle BABD-13](https://www.kaggle.com/datasets/lemonx/babd13). 
 
-`labeled_data_API.py` is used for collecting Bitcoin addresses with labels from [WalletExplorer](https://www.walletexplorer.com/) that is completed by Qingqing Yang ([@Vinedou](https://github.com/Vinedou)). The collected labeled Bitcoin addresses are saved in .csv files as shown in `data_collection` folder (we will update the format recently). The .csv files (including only Bitcoin addresses and their labels) are loaded in all *processing indicators* cells in `data_extraction.ipynb` (we recommend using cells noted *parallel computing* to calculate features for faster processing).
+`labeled_data_API.py` is used for collecting Bitcoin addresses with labels from [WalletExplorer](https://www.walletexplorer.com/) that is completed by Qingqing Yang ([@Vinedou](https://github.com/Vinedou)). The collected labeled Bitcoin addresses are saved in .csv files as shown in `data_collection` folder (we will update the format recently). 
+
+The .csv files (including only Bitcoin addresses and their labels) are loaded in all *processing indicators* cells in `data_extraction.ipynb` (we recommend using cells noted *parallel computing* to calculate features for faster processing).
 
 Also, we would like to thank [Aleš Janda](http://www.alesjanda.cz/) for his generous help in providing API.
  
