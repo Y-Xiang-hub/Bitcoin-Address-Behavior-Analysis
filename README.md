@@ -32,7 +32,7 @@ In the `data_collection` folder, `Bitcoin_Ledger_Reader_V3.1.py` is used for col
 
 `labeled_data_API.py` is used for collecting Bitcoin addresses with labels from [WalletExplorer](https://www.walletexplorer.com/) that is completed by Qingqing Yang ([@Vinedou](https://github.com/Vinedou)). The collected labeled Bitcoin addresses are saved in .csv files as shown in `data_collection` folder (we will update the format recently). 
 
-These .csv files (including only Bitcoin addresses and their labels) are loaded in all *processing indicators* cells in `data_extraction.ipynb` (we recommend using cells noted *parallel computing* to calculate features for faster processing).
+These .csv files, including only Bitcoin addresses and their labels, are loaded in all *processing indicators* cells in `data_extraction.ipynb` (we recommend using cells noted *parallel computing* to calculate features for faster processing).
 
 Notably, we would like to thank [Aleš Janda](http://www.alesjanda.cz/) for his generous help in providing API.
  
