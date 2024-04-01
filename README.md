@@ -36,7 +36,7 @@ Here, we would like to thank [Aleš Janda](http://www.alesjanda.cz/) for his gen
 ## Graph Generation
 To generate a Bitcoin transaction graph from raw Bitcoin ledger data, it is necessary to select the attributes needed for the following analysis steps first which can be found in `graph_generation.py`. Then we use `graph_generation.py` implemented by [graph-tool](https://graph-tool.skewed.de/) to generate the Bitcoin transaction graph.
 
-In this step, we input Bitcoin ledger data in JSON format to generate the Bitcoin transaction graph consisting of two files `revmap.pkl` and `BitcoinGraph.gt`. These two files are loaded in the first cell of `data_extraction.ipynb` as the first step before calculating the features of Bitcoin addresses with labels. 
+In this step, we input Bitcoin ledger data in JSON format to generate the Bitcoin transaction graph consisting of two files `revmap.pkl` and `BitcoinGraph.gt`. These two files are loaded in the first cell of `data_extraction.ipynb` as the preparation before calculating the features of Bitcoin addresses with labels. 
 
 ## Feature Extraction
 In this process, we need to extract the required features from the generated Bitcoin transaction graph for the concrete labeled Bitcoin addresses. There are two kinds of features we are concerned about in this work that are **statistical features** and **local structural features**.
