@@ -28,18 +28,18 @@ If you have any questions please feel free to contact me by e-mail at Yuexin.Xia
 
  
 ## Data Collection
-In the `data_collection` folder, `Bitcoin_Ledger_Reader_V3.1.py` is used for collecting Bitcoin ledger data from [BTC.com](https://btc.com/), also **partial Bitcoin ledger data** in JSON format from height 600,000 to 605,999 are available on our [Kaggle BABD-13](https://www.kaggle.com/datasets/lemonx/babd13). 
+In the `data_collection` folder, `Bitcoin_Ledger_Reader_V3.1.py` is used for collecting Bitcoin ledger data from [BTC.com](https://btc.com/), also we share **partial Bitcoin ledger data** in JSON format from height 600,000 to 605,999 on our [Kaggle BABD-13](https://www.kaggle.com/datasets/lemonx/babd13) since the whole raw Bitcoin ledger data are too large. We also recommend using [BlockSci](https://github.com/citp/BlockSci) for raw Bitcoin ledger collection, the collected JSON format may be somewhat different from the format in this work but can be modified.
 
 `labeled_data_API.py` is used for collecting Bitcoin addresses with labels from [WalletExplorer](https://www.walletexplorer.com/) that is completed by Qingqing Yang ([@Vinedou](https://github.com/Vinedou)). The collected labeled Bitcoin addresses are saved in .csv files as shown in `data_collection` folder (we will update the format recently). 
 
 These .csv files (including only Bitcoin addresses and their labels) are loaded in all *processing indicators* cells in `data_extraction.ipynb` (we recommend using cells noted *parallel computing* to calculate features for faster processing).
 
-Also, we would like to thank [Aleš Janda](http://www.alesjanda.cz/) for his generous help in providing API.
+Notably, we would like to thank [Aleš Janda](http://www.alesjanda.cz/) for his generous help in providing API.
  
 ## Graph Generation
-To generate a Bitcoin transaction graph from Bitcoin ledger data, we select the attributes needed for the following analysis steps first which can be found in `graph_generation.py`. Then we use `graph_generation.py` implemented by [graph-tool](https://graph-tool.skewed.de/) to generate the Bitcoin transaction graph.
+To generate a Bitcoin transaction graph as we designed (shown in Fig. 1 in our paper) from Bitcoin ledger data in JSON format, we select several important attributes to construct the Bitcoin transaction graph which can be found in `graph_generation.py` implemented by [graph-tool](https://graph-tool.skewed.de/). 
 
-In this step, we input Bitcoin ledger data in JSON format to generate the Bitcoin transaction graph consisting of two files `revmap.pkl` and `BitcoinGraph.gt`. These two files are loaded in the first cell of `data_extraction.ipynb` as the preparation before calculating the features of Bitcoin addresses with labels. 
+In this step, we input continuous Bitcoin ledger data in JSON format (see JSON examples in [Kaggle BABD-13](https://www.kaggle.com/datasets/lemonx/babd13)) to generate the Bitcoin transaction graph consisting of two files `revmap.pkl` and `BitcoinGraph.gt`. These two files are loaded in the first cell of `data_extraction.ipynb` as the preparation before calculating the features of Bitcoin addresses with labels. 
 
 ## Feature Extraction
 In this process, we need to extract the required features from the generated Bitcoin transaction graph for the concrete labeled Bitcoin addresses. There are two kinds of features we are concerned about in this work that are **statistical features** and **local structural features**.
