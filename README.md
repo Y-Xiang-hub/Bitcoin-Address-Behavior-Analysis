@@ -54,7 +54,7 @@ In the `format` folder, `csv_format.yml` is the header of raw feature data .csv 
 
 ## Extended Research
 -  Xiang, Y., Li, T., & Li, Y. (2022, December). [Leveraging Subgraph Structure for Exploration and Analysis of Bitcoin Address](https://ieeexplore.ieee.org/abstract/document/10020980). In 2022 IEEE International Conference on Big Data (Big Data) (pp. 1957-1962). IEEE. [[Data]](https://www.kaggle.com/datasets/lemonx/basd8)
-- Yang, Q., Xiang, Y., Liu, W., & Ren, W. (2022, December). [An Illicit Bitcoin Address Analysis Scheme Based on Subgraph Evolution](https://ieeexplore.ieee.org/abstract/document/10074805). In 2022 IEEE 24th Int Conf on High Performance Computing & Communications; 8th Int Conf on Data Science & Systems; 20th Int Conf on Smart City; 8th Int Conf on Dependability in Sensor, Cloud & Big Data Systems & Application (HPCC/DSS/SmartCity/DependSys) (pp. 679-686). IEEE. [[Data]](https://www.kaggle.com/datasets/lemonx/bitcoin-subgraph-evolution-data)
+- Yang, Q., Xiang, Y., Liu, W., & Ren, W. (2022, December). [An Illicit Bitcoin Address Analysis Scheme Based on Subgraph Evolution](https://ieeexplore.ieee.org/abstract/document/10074805). In 2022 IEEE 24th Int Conf on High Performance Computing & Communications (pp. 679-686). IEEE. [[Data]](https://www.kaggle.com/datasets/lemonx/bitcoin-subgraph-evolution-data)
 -  Bao, D., Ren, W., Xiang, Y., Liu, W., Zhu, T., Ren, Y., & Choo, K. K. R. (2023). [BTC-Shadow: An Analysis and Visualization System for Exposing Implicit Behaviors in Bitcoin Transaction Graphs](https://link.springer.com/article/10.1007/s11704-023-2531-0). Frontiers of Computer Science, 17(6), 1-3. [[Demo]](https://github.com/whbyaoi/BTCShadow)
 
 ## Credits
