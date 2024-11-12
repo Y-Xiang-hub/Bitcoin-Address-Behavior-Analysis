@@ -1,4 +1,4 @@
-# BABD Construction and Analysis
+# Detailed Overview of BABD Construction
 
 This project provides the source code for building [BABD-13](https://www.kaggle.com/datasets/lemonx/babd13), accessible on Kaggle. The research paper, titled [BABD: A Bitcoin Address Behavior Dataset for Pattern Analysis](https://doi.org/10.1109/TIFS.2023.3347894), has been published in IEEE Transactions on Information Forensics and Security. If you find our work helpful for your research, please consider citing it as:
 
@@ -59,7 +59,7 @@ In the `format` folder, `csv_format.yml` is the header of raw feature data .csv 
 ## Extended Research
 -  Xiang, Y., Li, T., & Li, Y. (2022, December). [Leveraging Subgraph Structure for Exploration and Analysis of Bitcoin Address](https://ieeexplore.ieee.org/abstract/document/10020980). In 2022 IEEE International Conference on Big Data (Big Data) (pp. 1957-1962). IEEE. [[Data]](https://www.kaggle.com/datasets/lemonx/basd8)
 - Yang, Q., Xiang, Y., Liu, W., & Ren, W. (2022, December). [An Illicit Bitcoin Address Analysis Scheme Based on Subgraph Evolution](https://ieeexplore.ieee.org/abstract/document/10074805). In 2022 IEEE 24th International Conference on High Performance Computing & Communications (pp. 679-686). IEEE. [[Data]](https://www.kaggle.com/datasets/lemonx/bitcoin-subgraph-evolution-data)
--  Bao, D., Ren, W., Xiang, Y., Liu, W., Zhu, T., Ren, Y., & Choo, K. K. R. (2023). [BTC-Shadow: An Analysis and Visualization System for Exposing Implicit Behaviors in Bitcoin Transaction Graphs](https://link.springer.com/article/10.1007/s11704-023-2531-0). Frontiers of Computer Science, 17(6), 1-3. <br> [[Demo]](https://github.com/whbyaoi/BTCShadow)
+-  Bao, D., Ren, W., Xiang, Y., Liu, W., Zhu, T., Ren, Y., & Choo, K. K. R. (2023). [BTC-Shadow: An Analysis and Visualization System for Exposing Implicit Behaviors in Bitcoin Transaction Graphs](https://link.springer.com/article/10.1007/s11704-023-2531-0). Frontiers of Computer Science, 17(6), 1-3. [[Demo]](https://github.com/whbyaoi/BTCShadow)
 
 ## Credits
 The project was mainly completed by Ding Bao ([@whbyaoi](https://github.com/whbyaoi)), Yuchen Lei ([@TooYoungTooSimp](https://github.com/TooYoungTooSimp)), and Yuexin Xiang ([@Y-Xiang-hub](https://github.com/Y-Xiang-hub)).
