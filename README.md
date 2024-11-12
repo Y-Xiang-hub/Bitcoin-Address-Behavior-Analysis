@@ -37,7 +37,7 @@ Notably, we would like to thank [Aleš Janda](http://www.alesjanda.cz/) for his 
 ## Transaction Graph Generation
 To generate a Bitcoin transaction graph as we designed (shown in ![structure](image/structure.png)) from Bitcoin ledger data in JSON format, we select several important attributes to construct the Bitcoin transaction graph which can be found in `graph_generation.py` implemented by [graph-tool](https://graph-tool.skewed.de/). In this step, we input continuous Bitcoin ledger data in JSON format (see JSON examples on [BABD-13](https://www.kaggle.com/datasets/lemonx/babd13)) to generate the Bitcoin transaction graph consisting of two files `revmap.pkl` and `BitcoinGraph.gt`. These two files are loaded in the first (i.e., *read the graph*) cell of `data_extraction.ipynb` as the preparation before calculating the features of Bitcoin addresses with labels. 
 
-<img src="images/myimage.png" width="300" height="200" alt="My Image Description">
+<img src="image/structure.png" width="300" height="200" alt="My Image Description">
 
 
 ## Feature Extraction
