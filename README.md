@@ -11,8 +11,6 @@ This project provides the source code for building [BABD-13](https://www.kaggle.
       pages={2171-2185},
       doi={10.1109/TIFS.2023.3347894}
     }
-    
-If you have any questions please feel free to contact me by e-mail at Yuexin.Xiang@monash.edu.
 
 ## Contents
 
